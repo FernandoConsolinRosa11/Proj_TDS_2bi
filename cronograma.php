@@ -4,29 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cronograma - Brasa Bar</title>
-    <link rel="stylesheet" href="styles.css">
 
     <!-- Icons -->
     <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <img src="img/logo.png" alt="logo">
-        </div>
-
-        <nav>
-            <ul class="menu">
-                <li><a href="index.php">Home</a></li>
-                <li><a href="catalogo.php">Catálogo</a></li>
-                <li><a href="cronograma.php">Cronograma</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section class="cronograma">
+    <?php
+        include 'header.php';
+    ?>
+    <main>
+<section class="cronograma">
         <div class="cabeçalio">
             <h2>Cronograma de Eventos</h2>
         </div>
@@ -110,6 +99,8 @@
             </div>
         </div>
     </section>
+</main>
 </body>
+
 <footer><h1>desenvolvido por gustavo</h1></footer>
 </html>

@@ -203,7 +203,7 @@ main div img{
 
 /* BOTÕES */
 
-.btn{
+.botao{
     position: absolute;
     bottom: 90px;
 
@@ -221,21 +221,21 @@ main div img{
 
 /* botão preenchido */
 
-.btn-laranja{
+.botao-laranja{
     background: #f39c12;
     color: rgb(0, 0, 0);
 
     left: 80px;
 }
 
-.btn-laranja:hover{
+.botao-laranja:hover{
     background: #ffffff;
     transform: scale(1.05);
 }
 
 /* botão transparente */
 
-.btn-borda{
+.botao-borda{
     border: 3px solid #f39c12;
     color: #f39c12;
     background: transparent;
@@ -243,7 +243,7 @@ main div img{
     left: 350px;
 }
 
-.btn-borda:hover{
+.botao-borda:hover{
     border: 3px solid #000000;
     background: #ffffff;
     transform: scale(1.05);

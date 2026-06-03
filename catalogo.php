@@ -10,20 +10,9 @@
 
 
 <body>
-    <header>
-        <div class="logo">
-            <img src="img/logo.png" alt="logo">
-        </div>
-
-        <nav>
-            <ul class="menu">
-                <li><a href="index.php">Home</a></li>
-                <li><a href="catalogo.php">Catálogo</a></li>
-                <li><a href="cronograma.php">Cronograma</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
+    <?php
+        include 'header.php';
+    ?>
     <main>
         <div class="cabeçalio">
             <h2>Whisky</h2>
